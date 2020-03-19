@@ -34,3 +34,6 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+- task: BatchScript@1
+  inputs:
+    filename: 'C:\Users\shupande2\Desktop\batfile.bat'
