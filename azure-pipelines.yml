@@ -35,6 +35,4 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      echo wscript.exe C:\Users\shupande2\Desktop\runner.vbs
-      
-      echo Hello world
+      wscript.exe C:\Users\shupande2\Desktop\runner.vbs
